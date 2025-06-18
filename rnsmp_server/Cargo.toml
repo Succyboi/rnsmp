@@ -1,0 +1,9 @@
+[package]
+name = "rnsmp_server"
+authors = ["Puk Bruinsma <puk@stupidplusplus.com>"]
+version = "0.0.1"
+edition = "2021"
+description = "A rnsmp server."
+license-file = "LICENSE"
+
+[dependencies]
