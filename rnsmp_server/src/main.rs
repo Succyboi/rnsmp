@@ -65,7 +65,7 @@ fn run() {
     };
     println!("Initialized server succesfully.");
 
-    println!("Running.");
+    println!("{name} running on port {port}.", name = consts::NAME, port = port);
     loop {
         match server.tick() {
             Ok(()) => (),
